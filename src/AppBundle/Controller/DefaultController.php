@@ -152,7 +152,13 @@ public function hymnAction()
     /*
      * P
      */
-
+/**
+ * @Route("/pytam.html", name="pytam")
+ */
+public function pytamAkermanskieAction()
+{
+    return $this->render('default/pytam.html.twig');
+}
     /*
      * Q
      */
