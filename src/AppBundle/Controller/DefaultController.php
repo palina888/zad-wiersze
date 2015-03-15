@@ -677,4 +677,14 @@ public function podrozdunajcemAction()
     {
         return $this->render('default/rzym.html.twig');
     }
+    /*
+     * AAA
+     */
+    /**
+ * @Route("/do_m.html", name="do_m")
+ */
+public function domAction()
+{
+    return $this->render('default/do_m.html.twig');
+}
 }
