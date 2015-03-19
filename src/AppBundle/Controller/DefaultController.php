@@ -234,6 +234,14 @@ public function podrozdunajcemAction()
     {
         return $this->render('default/pielgrzym.html.twig');
     }
+    
+      /**
+     * @Route("/osiel-i-pies.html", name="osiel-i-pies")
+     */
+    public function piesAction()
+    {
+        return $this->render('default/osiel-i-pies.html.twig');
+    }
 
     /*
      * N
