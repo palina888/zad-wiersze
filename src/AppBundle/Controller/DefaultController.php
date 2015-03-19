@@ -116,6 +116,14 @@ public function cudAction()
     {
         return $this->render('default/elegia.html.twig');
     }
+
+    /**
+    * @Route("/eskimosek.html", name="Eskimosek")
+    */
+    public function eskimosekAction()
+    {
+        return $this->render('default/eskimosek.html.twig');
+    }
     /*
      * F
      */
