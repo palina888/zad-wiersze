@@ -468,4 +468,14 @@ public function podrozdunajcemAction()
     {
         return $this->render('default/rozum-i-wiara.html.twig');
     }
+    /*
+     * chmielowski
+     */
+    /**
+     * @Route("/bambo.html", name="bambo")
+     */
+    public function bamboAction()
+    {
+        return $this->render('default/bambo.html.twig');
+    }
 }
