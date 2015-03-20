@@ -185,6 +185,13 @@ public function podrozdunajcemAction()
     /*
      * J
      */
+    /**
+     * @Route("/lokomotywa.html", name="lokomotywa")
+     */
+    public function lokomotywaAction()
+    {
+        return $this->render('default/lokomotywa.html.twig');
+    }
 
     /*
      * K
