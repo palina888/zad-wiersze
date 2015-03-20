@@ -323,6 +323,13 @@ public function podrozdunajcemAction()
     {
         return $this->render('default/rzepka.html.twig');
     }
+     /**
+     * @Route("/Kotek.html", name="Kotek")
+     */
+    public function KotekAction()
+    {
+        return $this->render('default/Kotek.html.twig');
+    }
 
     /*
      * S
