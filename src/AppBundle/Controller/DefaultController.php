@@ -291,7 +291,13 @@ public function podrozdunajcemAction()
      {
        return $this->render('default/swiat.html.twig');
      }
-
+    /**
+     * @Route("/ankieta.html", name="ankieta")
+     */
+    public function ankietaAction()
+    {
+        return $this->render('default/ankieta.html.twig');
+    }
     /*
      * P
      */
