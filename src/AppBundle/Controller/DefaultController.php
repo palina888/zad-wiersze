@@ -204,6 +204,15 @@ public function podrozdunajcemAction()
     {
         return $this->render('default/carpe-diem.html.twig');
     }
+    
+     /**
+     * @Route("/miejcie-nadzieje.html", name="miejcie-nadzieje")
+     */
+    public function miejcieNadziejeAction()
+    {
+        return $this->render('default/miejcie-nadzieje.html.twig');
+    }
+    
     /*
      * L
      */
