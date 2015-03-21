@@ -67,6 +67,13 @@ class DefaultController extends Controller
     /*
      * B
      */
+    /**
+    * @Route("/baranku-wielkanocny.html", name="baranku-wielkanocny")
+    */
+        public function  BarankuWielkanocnyAction()
+    {
+           return $this->render('default/baranku-wielkanocny.html.twig');
+    }
         /**
     *@Route("/poemat-lublin.html", name="poemat-lublin")
     */
