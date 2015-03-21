@@ -50,6 +50,7 @@ class DefaultController extends Controller
     /*
      * A
      */
+
      /**
      * @Route("/pawel-i-gawel.html", name="pawel-i-gawel")
     */
@@ -63,6 +64,13 @@ class DefaultController extends Controller
     public function marszAction()
     {
         return $this->render('default/marsz.html.twig');
+    }
+    /**
+    * @Route("/aby_sie_stalo.html", name="aby_sie_stalo")
+    */
+        public function  AbySieStaloAction()
+    {
+        return $this->render('default/aby_sie_stalo.html.twig');
     }
     /*
      * B
