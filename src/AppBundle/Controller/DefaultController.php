@@ -387,7 +387,13 @@ public function podrozdunajcemAction()
     /*
      * V
      */
-    
+    /**
+    * @Route("/pierwiosnek.html", name="pierwiosnek")
+    */
+    public function pierwiosnekAction()
+    {
+         return $this->render('default/pierwiosnek.html.twig');
+    }
 
     /**
      * @Route("/z-glowa-na-karabinie.html", name="z-glowa-na-karabinie")
