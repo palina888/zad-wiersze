@@ -282,6 +282,15 @@ public function podrozdunajcemAction()
      }
 
     
+      /**
+     * @Route("/Sam.html", name="Sam")
+     */
+     public function SamAction()
+     {
+       return $this->render('default/Sam.html.twig');
+     }
+
+    
     
 
      /**
