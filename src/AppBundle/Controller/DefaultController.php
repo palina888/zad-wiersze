@@ -458,7 +458,13 @@ public function podrozdunajcemAction()
     /*
      * X
      */
-
+    /**
+     * @Route("/nic.html", name="nic")
+     */
+    public function nicAction()
+    {
+        return $this->render('default/nic.html.twig');
+    }
      
      /**
     * @Route("/do-matki.html", name="do-matki")
