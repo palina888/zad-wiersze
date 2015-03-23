@@ -90,6 +90,13 @@ public function cudAction()
      * D
      */
 
+		/**
+     * @Route("/dzik.html", name="dzik")
+     */
+     public function dzikAction()
+     {
+        return $this->render('default/dzik.html.twig');
+     }
     /**
      * @Route("/drzewa.html", name="drzewa")
     */
@@ -208,6 +215,14 @@ public function podrozdunajcemAction()
      * L
      */
 
+		/**
+     * @Route("/len.html", name="len")
+     */
+     public function lenAction()
+     {
+        return $this->render('default/len.html.twig');
+     }
+		 
      /**
      * @Route("/ocean.html", name="ocean")
      */
