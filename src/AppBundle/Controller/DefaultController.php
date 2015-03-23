@@ -575,5 +575,12 @@ public function podrozdunajcemAction()
     {
     return $this->render('default/zima-miejska.html.twig');
     }
+    /**
+     * @Route("/Sonet.html", name="Sonet")
+     */
+    public function SonetAction()
+    {
+        return $this->render('default/Sonet.html.twig');
+    }
 
 }
