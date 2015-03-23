@@ -101,6 +101,13 @@ class DefaultController extends Controller
      * C
      */
     /**
+ * @Route("/architektura.html", name="architektura")
+ */
+public function architekturaAction()
+{
+    return $this->render('default/architektura.html.twig');
+}
+    /**
  * @Route("/cud.html", name="cud")
  */
 public function cudAction()
