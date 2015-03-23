@@ -74,7 +74,7 @@ class DefaultController extends Controller
     {
     return $this->render('default/poemat-lublin.html.twig');
     }
-
+   
     /*
      * C
      */
@@ -498,4 +498,15 @@ public function podrozdunajcemAction()
     {
         return $this->render('default/bambo.html.twig');
     }
+    /*
+     * charkot
+     */
+    /**
+    * @Route("/zima-miejska.html", name="zima-miejska")
+    */
+    public function zimamiejskaAction()
+    {
+    return $this->render('default/zima-miejska.html.twig');
+    }
+
 }
