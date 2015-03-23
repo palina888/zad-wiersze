@@ -83,6 +83,13 @@ class DefaultController extends Controller
      * B
      */
     /**
+ * @Route("/bezmiar.html", name="bezmiar")
+ */
+public function bezmiarAction()
+{
+    return $this->render('default/bezmiar.html.twig');
+}
+    /**
     * @Route("/baranku-wielkanocny.html", name="baranku-wielkanocny")
     */
         public function  BarankuWielkanocnyAction()
