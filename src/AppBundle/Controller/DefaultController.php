@@ -133,6 +133,14 @@ public function niepewnoscAction()
     return $this->render('default/niepewnosc.html.twig');
 }
 
+/**
+ * @Route("/Astrolog.html", name="Astrolog")
+ */
+public function AstrologAction()
+{
+    return $this->render('default/Astrolog.html.twig');
+}
+
 		/**
      * @Route("/dzik.html", name="dzik")
      */
