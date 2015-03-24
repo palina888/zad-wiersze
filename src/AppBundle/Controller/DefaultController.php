@@ -185,6 +185,13 @@ public function gameoverAction()
      * H
      */
 /**
+ * @Route("/do-prostego-czlowieka.html", name="do-prostego-czlowieka")
+ */
+public function doProstegoCzlowiekaAction()
+{
+    return $this->render('default/do-prostego-czlowieka.html.twig');
+}
+/**
  * @Route("/hymn.html", name="hymn")
  */
 public function hymnAction()
