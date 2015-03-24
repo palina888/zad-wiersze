@@ -131,6 +131,13 @@ public function cudAction()
      * E
      */
     /**
+ * @Route("/reka-reke-myje.html", name="reka-reke-myje")
+ */
+public function rekaRekeMyjeAction()
+{
+    return $this->render('default/reka-reke-myje.html.twig');
+}
+    /**
     * @Route("/et-arceo.html", name="et-arceo")
     */
     public function EtArceoAction()
