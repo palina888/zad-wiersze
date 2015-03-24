@@ -111,6 +111,13 @@ public function cudAction()
     /*
      * D
      */
+/**
+ * @Route("/niepewnosc.html", name="niepewnosc")
+ */
+public function niepewnoscAction()
+{
+    return $this->render('default/niepewnosc.html.twig');
+}
 
 		/**
      * @Route("/dzik.html", name="dzik")
