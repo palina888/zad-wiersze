@@ -157,6 +157,13 @@ public function cudAction()
      * F
      */
     /**
+ * @Route("/jak-kuba-bogu.html", name="jak-kuba-bogu")
+ */
+public function jakKubaBoguAction()
+{
+    return $this->render('default/jak-kuba-bogu.html.twig');
+}
+    /**
      * @Route("/w-ogrodzie.html", name="w-ogrodzie")
     */
     public function  wOgrodzieAction()
