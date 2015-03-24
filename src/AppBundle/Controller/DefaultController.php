@@ -223,6 +223,14 @@ public function gameoverAction()
 {
     return $this->render('default/game-over.html.twig');
 }
+
+/**
+     * @Route("/Goryle.html", name="Goryle")
+     */
+    public function GoryleAction()
+    {
+        return $this->render('default/Goryle.html.twig');
+    }
     /*
      * H
      */
