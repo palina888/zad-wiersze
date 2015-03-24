@@ -174,6 +174,13 @@ public function cudAction()
     /*
      * G
      */
+    /**
+ * @Route("/do-kolyski.html", name="do-kolyski")
+ */
+public function doKolyskiAction()
+{
+    return $this->render('default/do-kolyski.html.twig');
+}
 /**
  * @Route("/game-over.html", name="game-over")
  */
