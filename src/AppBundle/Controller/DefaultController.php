@@ -648,4 +648,12 @@ public function podrozdunajcemAction()
         return $this->render('default/Sonet.html.twig');
     }
 
+    
+    /**
+     * @Route("/rzym.html", name="Rzym")
+     */
+    public function RzymAction()
+    {
+        return $this->render('default/rzym.html.twig');
+    }
 }
