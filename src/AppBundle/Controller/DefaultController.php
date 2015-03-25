@@ -53,6 +53,13 @@ class DefaultController extends Controller
     {
         return $this->render('default/katar.html.twig');
     }
+     /**
+     * @Route("/spacer.html", name="spacer")
+     */
+    public function spacerAction()
+    {
+        return $this->render('default/spacer.html.twig');
+    }
 
     /*
      * A
