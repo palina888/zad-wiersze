@@ -23,6 +23,13 @@ class DefaultController extends Controller
     {
         return $this->render('default/pani-twardowska.html.twig');
     }
+    /**
+     * @Route("/Plonaca_kobieta.html", name="Plonaca_kobieta")
+     */
+    public function Plonaca_kobietaAction()
+    {
+        return $this->render('default/Plonaca_kobieta.html.twig');
+    }
       /**
      * @Route("/dolosu.html", name="dolosu")
      */
