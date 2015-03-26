@@ -637,6 +637,13 @@ public function podrozdunajcemAction()
     {
         return $this->render('default/bambo.html.twig');
     }
+    /**
+    * @Route("/zegarek.html", name="zegarek")
+    */
+    public function zegarekAction()
+    {
+        return $this->render('default/zegarek.html.twig');
+    }
     /*
      * charkot
      */
