@@ -382,6 +382,14 @@ public function podrozdunajcemAction()
     {
         return $this->render('default/osiel-i-pies.html.twig');
     }
+    
+    /**
+     * @Route("/oda.html", name="oda")
+     */
+    public function odaAction()
+    {
+        return $this->render('default/oda.html.twig');
+    }
 
     /*
      * N
