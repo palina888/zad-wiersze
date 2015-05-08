@@ -482,6 +482,14 @@ class DefaultController extends Controller
      */
 
     /**
+     * @Route("/petla.html", name="petla")
+     */
+    public function petlaAction()
+    {
+        return $this->render('default/petla.html.twig');
+    }
+    
+    /**
      * @Route("/pani-twardowska.html", name="pani-twardowska")
      */
     public function paniTwardowskaAction()
