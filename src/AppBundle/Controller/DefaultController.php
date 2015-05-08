@@ -399,6 +399,15 @@ class DefaultController extends Controller
     /*
      * N
      */
+    
+    /**
+     * @Route("/nakoncu.html", name="nakoncu")
+     */
+    public function nakoncuAction()
+    {
+        return $this->render('default/nakoncu.html.twig');
+    }
+    
 
     /**
      * @Route("/nic.html", name="nic")
