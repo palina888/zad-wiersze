@@ -436,6 +436,14 @@ class DefaultController extends Controller
     /*
      * O
      */
+    
+    /**
+     * @Route("/odchodzenie.html", name="odchodzenie")
+     */
+    public function odchodzenieAction()
+    {
+        return $this->render('default/odchodzenie.html.twig');
+    }
 
     /**
      * @Route("/ocean.html", name="ocean")
