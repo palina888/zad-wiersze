@@ -399,6 +399,15 @@ class DefaultController extends Controller
     /*
      * N
      */
+    
+    /**
+     * @Route("/nakoncu.html", name="nakoncu")
+     */
+    public function nakoncuAction()
+    {
+        return $this->render('default/nakoncu.html.twig');
+    }
+    
 
     /**
      * @Route("/nic.html", name="nic")
@@ -427,6 +436,14 @@ class DefaultController extends Controller
     /*
      * O
      */
+    
+    /**
+     * @Route("/odchodzenie.html", name="odchodzenie")
+     */
+    public function odchodzenieAction()
+    {
+        return $this->render('default/odchodzenie.html.twig');
+    }
 
     /**
      * @Route("/ocean.html", name="ocean")
@@ -464,6 +481,14 @@ class DefaultController extends Controller
      * P
      */
 
+    /**
+     * @Route("/petla.html", name="petla")
+     */
+    public function petlaAction()
+    {
+        return $this->render('default/petla.html.twig');
+    }
+    
     /**
      * @Route("/pani-twardowska.html", name="pani-twardowska")
      */
