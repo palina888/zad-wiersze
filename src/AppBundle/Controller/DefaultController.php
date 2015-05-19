@@ -267,6 +267,14 @@ class DefaultController extends Controller
     /*
      * I
      */
+    
+    /**
+     * @Route("/czarodziejka.html", name="czarodziejka")
+     */
+    public function czarodziejkaAction()
+    {
+        return $this->render('default/czarodziejka.html.twig');
+    }
 
     /*
      * J
