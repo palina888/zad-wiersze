@@ -752,5 +752,13 @@ class DefaultController extends Controller
     {
         return $this->render('default/zla-kolysanka.html.twig');
     }
+    
+    /**
+     * @Route("/granice.html", name="granice")
+     */
+    public function graniceAction()
+    {
+        return $this->render('default/granice.html.twig');
+    }
 
 }
