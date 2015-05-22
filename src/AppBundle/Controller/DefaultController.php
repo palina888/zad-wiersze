@@ -588,8 +588,13 @@ class DefaultController extends Controller
     {
         return $this->render('default/tecza.html.twig');
     }
-    
-    
+    /**
+     * @Route("/urodziny.html", name="urodziny")
+     */
+     public function urodzinyAction()
+    {
+        return $this->render('default/urodziny.html.twig');
+    }
     /*
      * R
      */
