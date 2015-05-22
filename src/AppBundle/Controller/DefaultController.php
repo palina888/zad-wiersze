@@ -223,6 +223,14 @@ class DefaultController extends Controller
     /*
      * F
      */
+    
+    /**
+     * @Route("/abdykacja.html", name="abdykacja")
+     */
+    public function abdykacjaAction()
+    {
+        return $this->render('default/abdykacja.html.twig');
+    }
 
     /*
      * G
