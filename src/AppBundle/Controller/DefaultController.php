@@ -581,6 +581,15 @@ class DefaultController extends Controller
      * Q
      */
 
+    /**
+     * @Route("/tecza.html", name="tecza")
+     */
+    public function teczaAction()
+    {
+        return $this->render('default/tecza.html.twig');
+    }
+    
+    
     /*
      * R
      */
